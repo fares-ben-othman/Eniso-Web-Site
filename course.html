@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ENISO website Design</title>
+    <link rel="stylesheet" href="stylesheet.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;1,200;1,500&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/99580f613f.js" crossorigin="anonymous"></script>
+
+</head>
+<body>
+    <section class="sub-header" >
+    <nav>
+      <a href="index.html"><img src="images/Logo_ENISo,_Tunisie.svg.png" width="10%"></a>
+      <div class="nav-links" id="nav_Links">
+        <i class="fa-solid fa-circle-xmark" onclick="hideMenu()"></i>
+        <ul>
+          <li><a href="index.html">HOME</a></li>
+          <li><a href="about.html">ABOUT</a></li>
+          <li><a href="course.html">COURSE</a></li>
+          <li><a href="contact.html">CONTACT</a></li>
+
+        </ul>
+      </div> 
+      <i class="fa-solid fa-bars" onclick="showMenu()"></i>
+      </nav>
+    </br>
+    <h1>Our Courses and Certifications</h1>
+</section>
+<script>
+  var nav_Links = document.getElementById("nav_Links");
+  function showMenu(){
+    nav_Links.style.right="0";
+  }
+  function hideMenu(){
+    nav_Links.style.right="-200px";
+  }
+</script> 
+<section class="blog-content">
+  
+  <div class="blog-left">
+    <img src="images/graduation.jpg">
+    <h2> we have the best certificates</h2>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid, necessitatibus! Esse adipisci cupiditate autem cumque, numquam repellat, quam ex quidem quaerat voluptates,
+       excepturi in libero fuga recusandae aut quos nam.Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid, necessitatibus! Esse adipisci cupiditate autem cumque, numquam repellat, quam ex quidem quaerat voluptates,
+       excepturi in libero fuga recusandae aut quos nam.Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid, necessitatibus! Esse adipisci cupiditate autem cumque, numquam repellat, quam ex quidem quaerat voluptates.
+    </p>
+    </div>
+    <div class="blog-right">
+      <h3> Our Courses </h3>
+    </table>
+    <table border="1" >
+      <tr><th>the Course</th><th>hours</th></tr>
+      <tr><td>cyber security</td><td>30</td></tr>
+      <tr><td>machine learning</td><td>50</td></tr>
+      <tr><td>web develoment</td><td>70</td></tr>
+      <tr><td>mobile development</td><td>80</td></tr>
+      <tr><td>programming basics</td><td>100</td></tr>
+      <tr><td>data science</td><td>90</td></tr>
+ 
+    </table>
+      <div>
+
+  </div>
+</section>
+<section class="add">
+   <div class="comment-box">
+    <h3>Leave a comment</h3>
+    <form class="comment-form">
+<input type="text" placeholder="Enter Name">
+<input type="email" placeholder="Enter Email">
+<textarea rows="5" placeholder="Your comment"></textarea>
+<button type="submit" class="hero-btn">Post comment </button>
+
+
+
+    </form>
+   </div>
+
+
+
+
+
+
+
+</section>
+
+
+  <footer>
+    <h4>About Us</h4>
+    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quo tempore et obcaecati velit qui, in necessitatibus omnis corrupti ipsam?</p>
+    <div class="icons">
+     <a href="https://www.facebook.com/AdminENISo"><i class="fa-brands fa-facebook"></i></a> 
+     <a href="https://twitter.com/"><i class="fa-brands fa-twitter"></i></a> 
+     <a href="https://www.instagram.com/"><i class="fa-brands fa-instagram"></i></a> 
+     <a href="https://www.linkedin.com/"><i class="fa-brands fa-linkedin"></i></a> 
+    </div>
+  </footer>
+
+
+
+
+
+
+
+</body>
+</html>

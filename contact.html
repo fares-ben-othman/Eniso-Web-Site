@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ENISO website Design</title>
+    <link rel="stylesheet" href="stylesheet.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;1,200;1,500&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/99580f613f.js" crossorigin="anonymous"></script>
+
+</head>
+<body>
+    <section class="sub-header" >
+    <nav>
+      <a href="index.html"><img src="images/Logo_ENISo,_Tunisie.svg.png" width="10%"></a>
+      <div class="nav-links" id="nav_Links">
+        <i class="fa-solid fa-circle-xmark" onclick="hideMenu()"></i>
+        <ul>
+         <li><a href="index.html">HOME</a></li>
+         <li><a href="about.html">ABOUT</a></li>
+         <li><a href="course.html">COURSE</a></li>
+         <li><a href="contact.html">CONTACT</a></li>
+
+        </ul>
+      </div> 
+      <i class="fa-solid fa-bars" onclick="showMenu()"></i>
+      </nav>
+    </br>
+    <h1>Contact Us</h1>
+</section>
+<script>
+  var nav_Links = document.getElementById("nav_Links");
+  function showMenu(){
+    nav_Links.style.right="0";
+  }
+  function hideMenu(){
+    nav_Links.style.right="-200px";
+  }
+</script> 
+</section>
+<section class="location">
+  <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3235.1665168858426!2d10.5930903!3d35.820389999999996!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x12fd8aeb930217f1%3A0x26a65273b05b6eff!2sEcole%20Nationale%20d&#39;Ing%C3%A9nieurs%20de%20Sousse!5e0!3m2!1sfr!2stn!4v1702118504003!5m2!1sfr!2stn" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+</section>
+<section class="contact-us">
+ <div class="row">
+  <div class="contact-col">
+    <div>
+      <i class="fa-solid fa-house"></i>
+      <span>
+        <h5>XYZ Road , sehloul,Tunisia</h5>
+      </span>
+
+    </div>
+    <div>
+      <i class="fa-solid fa-phone"></i>
+      <span>
+        <h5>+21625173033</h5>
+        <p>Monday to Saturday,10am to 6pm</p>
+      </span>
+      
+    </div>
+    <div>
+      <i class="fa-solid fa-envelope"></i>
+      <span>
+        <h5>eniso_sousse@gmail.com</h5>
+        <p> Email us</p>
+      </span>
+
+    </div>
+  </div>
+  <div class="contact-col">
+    <form action="">
+      <input type="text" placeholder="Enter your Name" required>
+      <input type="email" placeholder="Enter email address" required>
+      <input type="text" placeholder="Enter your subject" required>
+      <textarea rows="8" placeholder="message" required></textarea>
+      <button type="submit" class="hero-btn">send message</button>
+    </form>
+  </div>
+ </div>
+</section>
+
+
+
+
+  <footer>
+    <h4>About Us</h4>
+    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quo tempore et obcaecati velit qui, in necessitatibus omnis corrupti ipsam?</p>
+    <div class="icons">
+     <a href="https://www.facebook.com/AdminENISo"><i class="fa-brands fa-facebook"></i></a> 
+     <a href="https://twitter.com/"><i class="fa-brands fa-twitter"></i></a> 
+     <a href="https://www.instagram.com/"><i class="fa-brands fa-instagram"></i></a> 
+     <a href="https://www.linkedin.com/"><i class="fa-brands fa-linkedin"></i></a> 
+    </div>
+  </footer>
+
+
+
+
+
+
+
+</body>
+</html>

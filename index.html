@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ENISO website Design</title>
+    <link rel="stylesheet" href="stylesheet.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;1,200;1,500&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/99580f613f.js" crossorigin="anonymous"></script>
+
+</head>
+<body>
+    <section class="header" >
+    <nav>
+      <a href="index.html"><img src="images/Logo_ENISo,_Tunisie.svg.png" width="10%"></a>
+      <div class="nav-links" id="nav_Links">
+        <i class="fa-solid fa-circle-xmark" onclick="hideMenu()"></i>
+        <ul>
+          <li><a href="index.html">HOME</a></li>
+          <li><a href="about.html">ABOUT</a></li>
+          <li><a href="course.html">COURSE</a></li>
+          <li><a href="contact.html">CONTACT</a></li>
+
+        </ul>
+      </div> 
+      <i class="fa-solid fa-bars" onclick="showMenu()"></i>
+      </nav>
+    </br>
+<div class="text-box">
+    <center><h1>Ecole National D'ingenieurs De Sousse</h1></center>
+    <p>"Immerse yourself in cutting-edge innovation at our engineering school, where creativity meets precision. Our dynamic curriculum blends theoretical knowledge with hands-on experience, empowering students to engineer solutions for tomorrow's challenges. Join a community of forward-thinkers, guided by expert faculty, and embark on a journey to shape the future of technology."</p>
+    <center><a href="" class="hero-btn">Visit Us to Know More</a></center>
+</div>
+</section>
+<script>
+  var nav_Links = document.getElementById("nav_Links");
+  function showMenu(){
+    nav_Links.style.right="0";
+  }
+  function hideMenu(){
+    nav_Links.style.right="-200px";
+  }
+</script>
+<section class="fields">
+  <h1>Our Fields</h1>
+  <p>Engineering encompasses a vast array of specialized fields that contribute to the advancement of technology and innovation. From civil and mechanical engineering, focusing on infrastructure and machinery, to electrical and computer engineering, specializing in electronics and software development, each discipline plays a crucial role in shaping our modern world.</p>
+  <div class="row">
+    <div class="fields-col">
+      <img id="computer_science" src="C:\Users\benot\OneDrive\Bureau\web project\images\computer.webp">
+    <div class="layer1"><h3>computer_science</h3></div>  
+    </div>
+    <div class="fields-col">
+    <img id="télécommunication" src="C:\Users\benot\OneDrive\Bureau\web project\images\telecommunication.jpg">
+      <div class="layer2"><h3>Telecommunication</h3></div>
+    </div>
+    <div class="fields-col">
+      <img id="mécatronique" src="C:\Users\benot\OneDrive\Bureau\web project\images\ingenieur-mecatronique.png">
+      <div class="layer3"><h3> Mecatronic</h3></div>
+    </div>
+        <div class="fields-col">
+      <img id="mécanique" src="C:\Users\benot\OneDrive\Bureau\web project\images\pexels-photo-3817791.jpeg">
+      <div class="layer4"><h3> Mecanic</h3></div>
+  </div>
+</section>
+<section class="facilities">
+<h1>Our Facilities</h1>
+<p>University facilities provide students with a conducive environment for academic excellence and personal growth. These spaces, ranging from state-of-the-art laboratories to well-equipped libraries and recreational areas, support a holistic learning experience, fostering collaboration, research, and a vibrant campus community.</p>
+<div class="row">
+ <div class="facilities-col">
+ <img  id="library"  src="images/library.png">
+ <h3>Our library</h3>
+ <div><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt voluptatum fugi</p></div>
+ </div>
+ <div class="facilities-col">
+  <img id="cafeteria" src="images/cafeteria.png">
+  <h3>Our cafeteria</h3>
+  <div><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt voluptatum fugi</p></div>
+  </div>
+  <div class="facilities-col">
+    <img id="basketball" src="images/basketball.png">
+    <h3>Our basketball yard</h3>
+    <div><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt voluptatum fugi</p></div>
+    </div>
+</div>
+</section>
+
+<section class="testimonials">
+  <h1>What Our Students Say</h1>
+  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus voluptatibus molestias magnam obcaecati ab dolor accusamus, nostrum, nam, placeat tempora quibusdam quia. Nobis, aliquam </p>
+  <div class="row">
+    <div class="testimonial-col"> 
+      <img src="images/photo-1494790108377-be9c29b29330.webp"> 
+      <div>
+      <h3>Hayet Ben Amor</h3>
+      <i class="fa-solid fa-star"></i>
+      <i class="fa-solid fa-star"></i>
+      <i class="fa-solid fa-star"></i>
+      <i class="fa-solid fa-star"></i>
+      <i class="fa-regular fa-star"></i>
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Animi, quas est! Beatae facilis doloremque autem sequi? Deleniti, obcaecati! Et reprehenderit voluptatum aliquid laudantium asperiore </p>
+      </div>
+    </div>
+    <div class="testimonial-col"> 
+      <img src="images/premium_photo-1671656349322-41de944d259b.webp"> 
+      <div>
+      <h3>Mohammed El Goul</h3>
+      <i class="fa-solid fa-star"></i>
+      <i class="fa-solid fa-star"></i>
+      <i class="fa-solid fa-star"></i>
+      <i class="fa-solid fa-star"></i>
+      <i class="fa-solid fa-star-half-stroke"></i>
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Animi, quas est! Beatae facilis doloremque autem sequi? Deleniti, obcaecati! Et reprehenderit voluptatum aliquid laudantium asperiore </p>
+      </div>
+    </div>
+    <div class="testimonial-col"> 
+      <img src="images/user3jpg.jpg"> 
+      <div>
+      <h3>Fares Ben Othman</h3>
+      <i class="fa-solid fa-star"></i>
+      <i class="fa-solid fa-star"></i>
+      <i class="fa-solid fa-star"></i>
+      <i class="fa-solid fa-star"></i>
+      <i class="fa-solid fa-star"></i>
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Animi, quas est! Beatae facilis doloremque autem sequi? Deleniti, obcaecati! Et reprehenderit voluptatum aliquid laudantium asperiore </p>
+      </div>
+    </div>
+  </div>
+
+  <section class="cta">
+    <h1>Enroll For Our Various Online Courses<br> Anywhere From The World</h1>
+    <a href="" class="hero-btn">CONTACT US</a>
+  </section>
+
+  <footer>
+    <h4>About Us</h4>
+    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quo tempore et obcaecati velit qui, in necessitatibus omnis corrupti ipsam?</p>
+    <div class="icons">
+     <a href="https://www.facebook.com/AdminENISo"><i class="fa-brands fa-facebook"></i></a> 
+     <a href="https://twitter.com/"><i class="fa-brands fa-twitter"></i></a> 
+     <a href="https://www.instagram.com/"><i class="fa-brands fa-instagram"></i></a> 
+     <a href="https://www.linkedin.com/"><i class="fa-brands fa-linkedin"></i></a> 
+    </div>
+  </footer>
+
+
+
+
+
+
+
+</body>
+</html>

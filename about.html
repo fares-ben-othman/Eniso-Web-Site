@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ENISO website Design</title>
+    <link rel="stylesheet" href="stylesheet.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;1,200;1,500&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/99580f613f.js" crossorigin="anonymous"></script>
+
+</head>
+<body>
+    <section class="sub-header" >
+    <nav>
+      <a href="index.html"><img src="images/Logo_ENISo,_Tunisie.svg.png" width="10%"></a>
+      <div class="nav-links" id="nav_Links">
+        <i class="fa-solid fa-circle-xmark" onclick="hideMenu()"></i>
+        <ul>
+          <li><a href="index.html">HOME</a></li>
+          <li><a href="about.html">ABOUT</a></li>
+          <li><a href="course.html">COURSE</a></li>
+          <li><a href="contact.html">CONTACT</a></li>
+
+        </ul>
+      </div> 
+      <i class="fa-solid fa-bars" onclick="showMenu()"></i>
+      </nav>
+    </br>
+    <h1>About Us</h1>
+</section>
+<script>
+  var nav_Links = document.getElementById("nav_Links");
+  function showMenu(){
+    nav_Links.style.right="0";
+  }
+  function hideMenu(){
+    nav_Links.style.right="-200px";
+  }
+</script> 
+<section class="about-us">
+  <div class="row">
+    <div class="about-col">
+      <h1>National Engineering School of Sousse </h1>
+      <p>As a national school of engineering, ENISO is likely to offer a range of engineering programs, fostering academic excellence and contributing to the development of engineering expertise in Tunisia. The campus may feature modern facilities,
+         laboratories, and educational resources to support students in their academic pursuits.</p>
+    
+        </div>
+        <div class="about-col">
+          <img src="images/logo1.jpg">
+          <a href="" class="hero-btn">Explore Now</a>
+        </div>
+  </div>
+  <div class="vid">
+    <video src="images/404183486_1023651448686104_2867781567443618629_n.mp4" controls></video>
+
+
+
+
+</section>
+
+
+  <footer>
+    <h4>About Us</h4>
+    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quo tempore et obcaecati velit qui, in necessitatibus omnis corrupti ipsam?</p>
+    <div class="icons">
+     <a href="https://www.facebook.com/AdminENISo"><i class="fa-brands fa-facebook"></i></a> 
+     <a href="https://twitter.com/"><i class="fa-brands fa-twitter"></i></a> 
+     <a href="https://www.instagram.com/"><i class="fa-brands fa-instagram"></i></a> 
+     <a href="https://www.linkedin.com/"><i class="fa-brands fa-linkedin"></i></a> 
+    </div>
+  </footer>
+
+
+
+
+
+
+
+</body>
+</html>
